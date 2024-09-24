@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - EcoTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTech</h1>
+        <img src="imagem/logo.png" alt="Logo da EcoTech" height="150" width="150">
+        <nav>
+            
+                <a href="index.html">Início</a>
+                <a href="produto.html">Produtos</a>
+                <a href="contato.html">Contato</a>
+                <a href="quiz.html">Quiz</a>
+           
+        </nav>
+    </header>
+            
+      
+    <main id="contato">
+        <section id="informacoes-contato">
+            <h2>Informações de Contato</h2>
+            <p><strong>Endereço:</strong> Rua joão moura, 135- jaú, SP</p>
+            <p><strong>Telefone:</strong> (14) 997451521</p>
+            <p><strong>Email:</strong> luisraphael399@gmail.com</p>
+        </section>
+
+        <section id="formulario-contato">
+            <h2>Envie-nos uma Mensagem</h2>
+            <form action="https://formsubmit.co/seuemail@dominio.com" method="POST">
+                <!-- Campo oculto para redirecionar após envio -->
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                <!-- Campo oculto para impedir spam -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <input type="mensagem" id="mensagem" name="mensagem" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EcoTech. Todos os direitos reservados.</p>
+        <p><a href="https://www.instagram.com/luisrapha/">instagram</a>
+    </footer>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ EcoTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTech</h1>
+        <img src="imagem/logo.png" alt="Logo da EcoTech" height="150" width="150">
+        <nav>
+            
+                <a href="index.html">Início</a>
+                <a href="produto.html">Produtos</a>
+                <a href="contato.html">Contato</a>
+                <a href="quiz.html">Quiz</a>
+           
+        </nav>
+    </header>
+  
+    <section class="quiz-section">
+     
+        <form id="quiz-form">
+            
+            <h2>Quiz de EcoTech </h2>
+            <!-- Pergunta 1 -->
+            <section class="question">
+                <h3>O que significa "EcoTech"?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()"> A) Tecnologia de economia</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()"> B) Tecnologias sustentáveis que promovem a eficiência energética e o uso de energia renovável</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()"> C)  Equipamentos para eletricidade tradicional</label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()"> D) Tecnologias para transporte</label><br>
+            </section>
+        
+            <!-- Pergunta 2 -->
+            <section class="question">
+                <h3>Qual é a principal missão da EcoTech?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()"> A) Reduzir o custo de energia</label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()"> B) Promover o uso de tecnologias limpas e eficientes para um futuro sustentável</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()"> C) Desenvolver novas formas de transporte</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()"> D) Criar soluções apenas para grandes indústrias</label><br>
+            </section>
+
+            <!-- Pergunta 3 -->
+            <section class="question">
+                <h3>Qual dos seguintes é um produto oferecido pela EcoTech?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()"> A) Painéis solares para automóveis</label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()"> B) Turbinas eólicas compactas</label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()"> C) Baterias para veículos elétricos</label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()"> D) Hidrelétricas portáteis</label><br>
+            </section>
+
+            <!-- Pergunta 4 -->
+            <section class="question">
+                <h3>Qual tipo de energia a EcoTech ajuda a gerar?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()"> A) Energia nuclear</label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()"> B) Energia térmica</label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()"> C) Energia eólica</label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()"> D) Energia química</label><br>
+            </section>
+
+            <!-- Pergunta 5 -->
+            <section class="question">
+                <h3>Para quem as turbinas eólicas da EcoTech são indicadas?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()"> A) Grandes usinas</label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()"> B) Pequenas residências e empresas</label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()"> C) Veículos movidos a eletricidade</label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()"> D) Fazendas e indústrias</label><br>
+            </section>
+
+            <!-- Pergunta 6 -->
+            <section class="question">
+                <h3>Qual é a visão da EcoTech?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()"> A) Reduzir o uso de tecnologias renováveis</label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()"> B) Ser referência global em soluções tecnológicas sustentáveis</label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()"> C) Concentrar-se em mercados nacionais</label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()"> D) Criar dispositivos de energia nuclear para residências</label><br>
+            </section>
+
+            <!-- Pergunta 7 -->
+            <section class="question">
+                <h3>O que as turbinas eólicas da EcoTech geram?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()"> A) Energia solar</label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()"> B) Energia geotérmica</label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()"> C) Energia renovável a partir do vento</label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()"> D) Energia química a partir de resíduos</label><br>
+            </section>
+
+             <!-- Pergunta 8 -->
+             <section class="question">
+                <h3>Qual das seguintes é uma vantagem das turbinas eólicas da EcoTech?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()"> A) Exigem manutenção constante</label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()"> B)  Alto nível de ruído</label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()"> C) São compactas e de fácil instalação</label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()"> D)  Funcionam apenas em áreas urbanas</label><br>
+            </section>
+
+              <!-- Pergunta 9 -->
+              <section class="question">
+                <h3>Como a EcoTech contribui para a sustentabilidade ambiental?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()"> A) Oferecendo soluções que promovem o uso de energia renovável e reduzem a dependência de combustíveis fósseis</label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()"> B) Focando apenas no uso de eletricidade tradicional</label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()"> C) Aumentando o consumo de recursos naturais não renováveis</label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()"> D) Utilizando combustíveis fósseis para produzir energia</label><br>
+            </section>
+
+              <!-- Pergunta 10 -->
+              <section class="question">
+                <h3>Qual curso é oferecido pela EcoTech?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()"> A) Engenharia Elétrica</label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()"> B) Programação Web</label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()"> C) Design Gráfico</label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()"> D) Manutenção de Painéis Solares</label><br>
+            </section>
+
+            <!-- Botões -->
+            <button id="submit-btn" type="button" onclick="submitQuiz()">Enviar Resposta</button>
+            <button id="retry-btn" type="button" onclick="retryQuiz()" disabled>Responder Novamente</button>
+        </form>
+        
+        <!-- Áudio -->
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="errosom" src="som/perdeu.mp3" preload="auto"></audio>
+
+        
+        <!-- Resultado -->
+        <section id="result"></section>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
